@@ -1,0 +1,14 @@
+{
+  "name": "sky-dex",
+  "main": "worker_dex.js",
+  "compatibility_date": "2026-11-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "skydex-db",
+      "database_id": "82f81e0d-1ca1-407a-a1e9-a998df3a267e"
+    }
+  ],
+  "triggers": { "crons": ["* * * * *", "0 3 * * *"] },
+  "observability": { "enabled": true }
+}
